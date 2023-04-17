@@ -13,6 +13,9 @@ class HistoryDict:
         self.new_list.reverse()
         while len(self.new_list) > 5:
             self.new_list.pop()
+        self.new_list.reverse()
         return self.new_list
+
+
 
 
